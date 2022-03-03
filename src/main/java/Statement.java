@@ -14,9 +14,11 @@ public class Statement implements  FilterStatement{
     @Override
     public void date(String date) {this.date = date;}
 
-    //todo Crear formato String para la tabla de salida
+
     public String printStatement(){
-        return "";
+        return "el monto es: " + balance + " la fecha es : " + date;
     }
+
+
 
 }
